@@ -5,7 +5,7 @@ class UserController{
 
         const {name,surname} = req.body
 
-        console.log('*******',name,surname)
+        // console.log('*******',name,surname)
 
         const newPerson = await db.query('INSERT INTO person (name,surname) values  ($1,$2) RETURNING * ', [name,surname] )
         res.json(newPerson.rows[0])
