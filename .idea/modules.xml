@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/nodejs_postgres.iml" filepath="$PROJECT_DIR$/.idea/nodejs_postgres.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/node_postgres.iml" filepath="$PROJECT_DIR$/.idea/node_postgres.iml" />
     </modules>
   </component>
 </project>

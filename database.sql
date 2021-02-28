@@ -12,6 +12,10 @@ user_id INTEGER,
 foreign key (user_id) references person (id)
 );
 
-select * from post;
-
 select * from person;
+select count(*) from person;
+
+
+select * from post;
+select count(*), user_id from post group by user_id;
+
