@@ -11,3 +11,7 @@ content varchar(256),
 user_id INTEGER,
 foreign key (user_id) references person (id)
 );
+
+select * from post;
+
+select * from person;
